@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./docs/banner.png" alt="ADPlayer" width="200">
+<img src="./banner.png" alt="Altalk" width="200">
 </p>
 
 # Artalk
