@@ -16,7 +16,7 @@
     .social { margin-top:20px }
     .social > a:not(:last-child) { margin-right:2px }
   </style>
-<link href="dist/Artalk.css?5fef21934bc99b9968a8" rel="stylesheet"><script type="text/javascript" src="dist/Artalk.js?5fef21934bc99b9968a8"></script></head>
+<link href="dist/Artalk.css?6daf8e07efb4b6d374e3" rel="stylesheet"><script type="text/javascript" src="dist/Artalk.js?6daf8e07efb4b6d374e3"></script></head>
 <body>
   <div class="card">
     <div class="title"><a href="https://github.com/qwqcode/Artalk" target="_blank"><span>&gt; </span>Artalk<span> &lt;</span></a></div>
@@ -38,7 +38,11 @@
       placeholder: '来啊，快活啊 (/ω＼)',
       defaultAvatar: 'mp',
       pageKey: 'https://artalk.js.org/',
-      serverUrl: (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:23366/' : 'https://qwqaq.com/Artalk/index.php'
+      serverUrl: (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:23366/' : 'https://qwqaq.com/Artalk/index.php',
+      readMore: {
+        pageSize: 15,
+        autoLoad: true
+      }
     })
   </script>
 </body>
